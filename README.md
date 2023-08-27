@@ -4,7 +4,8 @@ KODLUYORUZ YAZ CAHLLENGE
 
 PROJELER:
 
-WEEK1:
+Challenge 1:
+
 *EASY : Write an algorithm to find how old the user is by taking their date of birth.
 
 Algorithm: 
@@ -32,4 +33,31 @@ Algorithm:
 Optional
 *HARD : Construct an array of integers. In line with the target number you receive from the user, select numbers from the number sequence and add them to reach the target number.
 ! It is important to reach the target number with different combinations.
+
+Challenge 2 :
+
+*EASY : Get a number from the user and tell the user if that number is prime.
+
+Algorithm :
+
+-Get number input from user
+-if the number is greater than 0
+    if the number is 2
+        print the number is prime to the screen.
+    if the number is 1
+        print the number is not prime to the screen.
+    else
+        Define count variable, equal to 2
+        Define isPrime variable, equal to true
+        Until count = number
+            Divide number by count , 
+                if equal to 0 break the loop and set isprime value to false
+                else increase the count by one, continue the loop.
+    if isPrime equal to the true 
+        The number is prime number, print it to the screen.
+    else
+        The number is not prime number, print it to the screen.
+-else
+    Enter the new value , print it to the screen.
+
 
