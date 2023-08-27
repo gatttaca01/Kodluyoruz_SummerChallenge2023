@@ -1,7 +1,7 @@
 
 using System;
 
-public class HelloWorld
+public class Easy
 {
     public static void Main(string[] args)
     {
